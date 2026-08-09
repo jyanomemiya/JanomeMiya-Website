@@ -1,0 +1,50 @@
+﻿@page
+@{
+    ViewData["Title"] = "蛇之眼ミヤの御由緒";
+}
+
+<div class="container my-5">
+    <div class="border p-5 bg-white rounded shadow-sm">
+        <h1 class="display-5 mb-4 text-center font-weight-bold" style="color: #b32424; font-family: 'Yu Mincho', serif;">⛩️ 御由緒 (プロフィール)</h1>
+
+        <!-- row（横並びの行）を開始 -->
+        <div class="row mt-5 align-items-start">
+
+            <!-- 左側：立ち絵やアバター画像が入るスペース（横幅の3分の1を確保） -->
+            <div class="col-lg-4 col-md-5 text-center mb-4">
+                <!-- 点線枠を消して、ミヤさんの立ち絵画像を表示するコード -->
+                <img src="/images/miya-standing.png" alt="蛇之眼ミヤ 立ち絵" class="img-fluid rounded" style="max-height: 500px; object-fit: contain;">
+            </div>
+
+            <!-- 右側：詳細な自己紹介テキスト（残りの横幅を確保） -->
+            <div class="col-lg-8 col-md-7 ps-md-4">
+                <h2 class="h3 font-weight-bold" style="color: #b32424; border-bottom: 2px solid #e6dfd3; padding-bottom: 12px; margin-top: 0;">蛇之眼ミヤ <small class="text-muted" style="font-size: 0.6em;">(じゃのめ みや)</small></h2>
+
+                <p class="lead mt-4" style="line-height: 1.8; color: #2c3e50;">
+                    「参拝者のみなさまに、日々の癒やしと楽しい時間を！」<br>
+                    神様のお使いである白蛇の神使が、人間の世界に興味を持ってVTuberとして顕現いたしました。
+                </p>
+                <p style="line-height: 1.8;">普段の配信活動では、大好きなゲームをまったりプレイしながら、参拝者のみなさまと日常の出来事を語り合う雑談配信をメインにお届けしています。お気軽にコメントで話しかけて、お詣りしていってくださいね！</p>
+
+                <!-- 詳細なステータス表 -->
+                <table class="table table-hover mt-4" style="border-top: 2px solid #d4af37;">
+                    <tbody>
+                        <tr><th style="width: 240px; color: #b32424; vertical-align: middle; white-space: nowrap;">🎉 御誕生日</th><td style="vertical-align: middle;">01月12日</td></tr>
+                        <tr><th style="color: #b32424; vertical-align: middle; white-space: nowrap;">💎 氏子（ファンネーム）</th><td style="vertical-align: middle;">参拝者</td></tr>
+                        <tr><th style="color: #b32424; vertical-align: middle; white-space: nowrap;">🐍 御神紋（ファンマーク）</th><td style="vertical-align: middle;">🐍⛩️</td></tr>
+                        <tr><th style="color: #b32424; vertical-align: middle; white-space: nowrap;">🎨 奉納画（ファンアート）</th><td style="vertical-align: middle;">#ミヤアート</td></tr>
+                        <tr><th style="color: #b32424; vertical-align: middle; white-space: nowrap;">🎮 好きなな神事（ゲーム）</th><td style="vertical-align: middle;">FPS、シミュレーション、インディーゲームなど</td></tr>
+                    </tbody>
+                </table>
+
+        </div> <!-- row の終了 -->
+
+        <hr class="my-5" style="border-top: 1px dashed #e6dfd3;">
+
+        <!-- 下部：戻るボタン -->
+        <div class="text-center">
+            <a href="/" class="btn btn-secondary px-4 shadow-sm" style="background-color: #7f8c8d; border: none;">境内（トップページ）へ戻る</a>
+        </div>
+    </div>
+    </div>
+</div>
